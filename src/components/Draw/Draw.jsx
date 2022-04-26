@@ -1,16 +1,29 @@
 import React from 'react';
-
+import { connect } from 'react-redux';
 import Card from '../Card/Card';
 
-export default props => {
+const Draw = props => {
+
+    const { min, max } = props
+    const sorteio = parseInt(Math.random() * (max - min)) + min
+
     return (
-        <Card title="Sorteio de um números" purple>
+        <Card title="Sorteio de um número" purple>
             <div className="Interval">
                 <span>
                     <span>Resultado: </span>
-                    <strong>8</strong>
+                    <strong>{sorteio}</strong>
                 </span>
             </div>
         </Card>
     )
 }
+
+function mapStateToProps(state) {
+    return {
+        min: state.numbers.min,
+        max: state.numbers.max,
+    }
+}
+
+export default connect(mapStateToProps)(Draw)

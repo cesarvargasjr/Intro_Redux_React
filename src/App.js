@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 
 import Interval from './components/Interval/Interval';
@@ -6,6 +7,7 @@ import Sum from './components/Sum/Sum';
 import Draw from './components/Draw/Draw';
 
 function App() {
+
   return (
     <div className="App">
       <h1>Intro Redux</h1>
