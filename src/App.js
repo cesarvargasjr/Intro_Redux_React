@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-
 import Interval from './components/Interval/Interval';
 import Median from './components/Median/Median';
 import Sum from './components/Sum/Sum';
