@@ -4,6 +4,8 @@ import Interval from './components/Interval/Interval';
 import Median from './components/Median/Median';
 import Sum from './components/Sum/Sum';
 import Draw from './components/Draw/Draw';
+import Subtraction from './components/Subtraction/Subtraction';
+import Name from './components/Name/Name';
 
 function App() {
 
@@ -14,9 +16,11 @@ function App() {
         <Interval></Interval>
       </div>
       <div className="linha">
-        <Median></Median>
-        <Sum></Sum>
-        <Draw></Draw>
+        <Median />
+        <Sum />
+        <Draw />
+        <Subtraction />
+        <Name />
       </div>
     </div>
   );

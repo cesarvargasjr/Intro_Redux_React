@@ -2,16 +2,16 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Card from '../Card/Card';
 
-const Media = props => {
+const Name = props => {
 
-    const { min, max } = props
+    const { name } = props
 
     return (
-        <Card title="Média dos números" green>
+        <Card title="Novo Nome" orange>
             <div className="Interval">
                 <span>
                     <span>Resultado: </span>
-                    <strong>{(max + min) / 2}</strong>
+                    <strong>{name}</strong>
                 </span>
             </div>
         </Card>
@@ -20,9 +20,8 @@ const Media = props => {
 
 function mapStateToProps(state) {
     return {
-        min: state.numbers.min,
-        max: state.numbers.max,
+        name: state.names.name,
     }
 }
 
-export default connect(mapStateToProps)(Media)
+export default connect(mapStateToProps)(Name)
