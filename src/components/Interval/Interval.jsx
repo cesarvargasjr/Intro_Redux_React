@@ -11,7 +11,7 @@ const Interval = props => {
 
     return (
         <>
-            <Card title="Intervalo dos números" red>
+            <Card title="Intervalo dos números" newBlue>
                 <div className="Interval">
                     <span>
                         <strong>Mínimo:</strong>
@@ -23,11 +23,11 @@ const Interval = props => {
                     </span>
                 </div>
             </Card>
-            <Card title="Nomes" red>
+            <Card title="Nomes" newBlue>
                 <div className="Interval">
                     <span>
                         <strong>Nome:</strong>
-                        <input type="text" value={name} onChange={e => props.alterNewName(+e.target.value)} />
+                        <input type="text" value={name} onChange={e => props.alterNewName(e.target.value)} />
                     </span>
                 </div>
             </Card>

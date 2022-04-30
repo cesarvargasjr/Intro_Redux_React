@@ -1,7 +1,7 @@
 import { NEW_NAME } from '../actions/actionTypes'
 
 const initialState = {
-    name: "Teste",
+    name: "",
 }
 
 export default function (state = initialState, action) {
@@ -10,7 +10,7 @@ export default function (state = initialState, action) {
         case NEW_NAME:
             return {
                 ...state,
-                min: action.payload
+                name: action.payload
             }
         default:
             return state

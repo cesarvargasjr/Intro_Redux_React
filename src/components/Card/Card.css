@@ -9,21 +9,26 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 80px;
 }
 
 .Card .Header .Title {
     flex: 1;
     padding: 5px;
+    font-size: 32px;
 }
 
 .Card .Content {
-    padding: 20px;
+    padding-top: 50px;
+    font-size: 22px;
+    height: 80px;
 }
 
 .Card.Red .Header {
     color: #FFF;
-    background-color: #c62828b9;
+    background-color: #f44336;
     border-radius: 15px 15px 0 0;
+    font-weight: bold;
 }
 
 .Card.Red .Content {
@@ -34,8 +39,9 @@
 
 .Card.Green .Header {
     color: #FFF;
-    background-color: #2e7d32a4;
+    background-color: #2e7d32;
     border-radius: 15px 15px 0 0;
+    font-weight: bold;
 }
 
 .Card.Green .Content {
@@ -46,8 +52,9 @@
 
 .Card.Blue .Header {
     color: #FFF;
-    background-color: #1565c0b0;
+    background-color: #2196f3;
     border-radius: 15px 15px 0 0;
+    font-weight: bold;
 }
 
 .Card.Blue .Content {
@@ -58,8 +65,9 @@
 
 .Card.Purple .Header {
     color: #FFF;
-    background-color: #6d11aab7;
+    background-color: #6d11aa;
     border-radius: 15px 15px 0 0;
+    font-weight: bold;
 }
 
 .Card.Purple .Content {
@@ -70,12 +78,27 @@
 
 .Card.Orange .Header {
     color: #FFF;
-    background-color: #fd72008f;
+    background-color: #fd7200;
     border-radius: 15px 15px 0 0;
+    font-weight: bold;
 }
 
 .Card.Orange .Content {
     color: #FFF;
     background-color: #fd7200;
+    border-radius: 0 0 15px 15px;   
+}
+
+.Card.newBlue .Header {
+    color: #FFF;
+    background-color: #373AAD;
+    border-radius: 15px 15px 0 0;
+    font-weight: bold;
+}
+
+.Card.newBlue .Content {
+    color: #FFF;
+    background-color: #373AAD;
+    ;
     border-radius: 0 0 15px 15px;   
 }

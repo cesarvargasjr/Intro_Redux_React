@@ -7,7 +7,7 @@ const Name = props => {
     const { name } = props
 
     return (
-        <Card title="Novo Nome" orange>
+        <Card title="Novo Nome" red>
             <div className="Interval">
                 <span>
                     <span>Resultado: </span>
