@@ -26,6 +26,13 @@ Após executar os comandos abra [http://localhost:3000](http://localhost:3000) p
 
 ##
 
-### GitHub Page - Projeto
+### GitHub Page - Projeto:
 
 <a href='https://cesarvargasjr.github.io/Intro_Redux_React/build' target='_blank'>Clique aqui</a> para abrir o projeto em seu navegador.
+
+##
+
+### Printscreen do projeto:
+
+![image](https://user-images.githubusercontent.com/72532360/172466123-1056b226-b19b-4775-bbb7-b3ad69e66fc7.png)
+
