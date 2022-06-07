@@ -2,88 +2,98 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    margin: 5px;
+    margin: 40px;
+
+    -moz-transition: transform 0.8s ease;
+    -webkit-transition: transform 0.8s ease;
+    -o-transition: transform 0.8s ease;
+    transition: transform 0.8s ease;
 }   
+
+.Card:hover {
+    transform: scale(1.2);
+}
 
 .Card .Header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 80px;
+    height: 100px;
 }
 
 .Card .Header .Title {
     flex: 1;
-    padding: 5px;
-    font-size: 32px;
+    padding: 10px;
+    font-size: 22px;
+    margin-top: 20px;
 }
 
 .Card .Content {
-    padding-top: 50px;
-    font-size: 22px;
-    height: 80px;
+    padding-top: 40px;
+    font-size: 18px;
+    height: 90px;
 }
 
-.Card.Red .Header {
+.Card.red .Header {
     color: #FFF;
     background-color: #f44336;
     border-radius: 15px 15px 0 0;
     font-weight: bold;
 }
 
-.Card.Red .Content {
+.Card.red .Content {
     color: #FFF;
     background-color: #f44336;
     border-radius: 0 0 15px 15px;   
 }
 
-.Card.Green .Header {
+.Card.green .Header {
     color: #FFF;
     background-color: #2e7d32;
     border-radius: 15px 15px 0 0;
     font-weight: bold;
 }
 
-.Card.Green .Content {
+.Card.green .Content {
     color: #FFF;
     background-color: #2e7d32;
     border-radius: 0 0 15px 15px;   
 }
 
-.Card.Blue .Header {
+.Card.blue .Header {
     color: #FFF;
     background-color: #2196f3;
     border-radius: 15px 15px 0 0;
     font-weight: bold;
 }
 
-.Card.Blue .Content {
+.Card.blue .Content {
     color: #FFF;
     background-color: #2196f3;
     border-radius: 0 0 15px 15px;   
 }
 
-.Card.Purple .Header {
+.Card.purple .Header {
     color: #FFF;
     background-color: #6d11aa;
     border-radius: 15px 15px 0 0;
     font-weight: bold;
 }
 
-.Card.Purple .Content {
+.Card.purple .Content {
     color: #FFF;
     background-color: #6d11aa;
     border-radius: 0 0 15px 15px;   
 }
 
-.Card.Orange .Header {
+.Card.orange .Header {
     color: #FFF;
     background-color: #fd7200;
     border-radius: 15px 15px 0 0;
     font-weight: bold;
 }
 
-.Card.Orange .Content {
+.Card.orange .Content {
     color: #FFF;
     background-color: #fd7200;
     border-radius: 0 0 15px 15px;   

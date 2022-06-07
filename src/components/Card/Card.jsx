@@ -1,19 +1,10 @@
-import './Card.css';
 import React from 'react';
-
-function getColor(props) {
-    if (props.red) return "Red"
-    if (props.green) return "Green"
-    if (props.blue) return "Blue"
-    if (props.purple) return "Purple"
-    if (props.orange) return "Orange"
-    if (props.newBlue) return "newBlue"
-    return ""
-}
+import './Card.css';
 
 export default props => {
+
     return (
-        <div className={`Card ${getColor(props)}`}>
+        <div className={`Card ${Object.keys(props)[1] || ''}`}>
             <div className="Header">
                 <span className="Title">{props.title}</span>
             </div>
