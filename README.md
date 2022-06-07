@@ -10,6 +10,7 @@ Principais conteúdos estudados/praticados neste módulo:
 - Configurção do Redux
 - Conexão do Redux com os componentes
 - Invocação do Action Creator
+- JSX
 
 ##
 
@@ -21,5 +22,10 @@ Para instalar o "Node_Modules".
 ### `npm start`
 Para executar o projeto.
 
-
 Após executar os comandos abra [http://localhost:3000](http://localhost:3000) para visualizar em seu navegador o projeto.
+
+##
+
+### GitHub Page - Projeto
+
+[Clique aqui](https://cesarvargasjr.github.io/Intro_Redux_React/build) para abrir o projeto em seu navegador.
