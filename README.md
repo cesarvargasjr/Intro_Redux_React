@@ -34,4 +34,5 @@ Após executar os comandos abra [http://localhost:3000](http://localhost:3000) p
 
 ### Printscreen do projeto:
 
-![image](https://user-images.githubusercontent.com/72532360/172465582-0e0a10d9-1be4-4d98-ba48-36cc0b4aa2cf.png)
+![image](https://user-images.githubusercontent.com/72532360/172466123-1056b226-b19b-4775-bbb7-b3ad69e66fc7.png)
+
