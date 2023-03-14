@@ -7,7 +7,7 @@ No oitavo módulo do curso, desenvolvemos uma aplicação simples para introduzi
 Principais conteúdos estudados/praticados neste módulo:
 
 - Entendendo os conceitos do Redux
-- Configurção do Redux
+- Configuração do Redux
 - Conexão do Redux com os componentes
 - Invocação do Action Creator
 - JSX
