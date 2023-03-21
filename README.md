@@ -2,7 +2,7 @@
 
 ### NOME DO CURSO: React + Redux: Fundamentos e 2 Apps do Absoluto ZERO!
 
-No oitavo módulo do curso, desenvolvemos uma aplicação simples para introduzir os conceitos do REDUX em uma aplicação.
+No oitavo módulo do curso, desenvolvi uma aplicação simples para introduzir os conceitos do REDUX em uma aplicação.
 
 Principais conteúdos estudados/praticados neste módulo:
 
